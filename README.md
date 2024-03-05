@@ -1,5 +1,12 @@
 # AI powered typing assistant with Ollama
 
+updates:  
+[√] fix x-ndjson when streaming is true  
+[ ] support for smaller ollama models  
+[ ] support for groq  
+[ ] import template, server, API details from external .json  
+
+
 A script that can run in the background and listen to hotkeys, then uses a Large Language Model to fix the text. Less than 100 lines of code.
 
 Inspired by this tweet:
@@ -11,6 +18,9 @@ https://twitter.com/karpathy/status/1725553780878647482
 You'll find a demo and step-by-step code explanations on my YouTube channel:
 
  [![Alt text](https://img.youtube.com/vi/IUTFrexghsQ/hqdefault.jpg)](https://youtu.be/IUTFrexghsQ)
+
+
+
 
 ## Get Started
 

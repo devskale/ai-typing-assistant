@@ -1,0 +1,16 @@
+{
+    "ollama_endpoint": "http://localhost:11434/api/generate",
+    "ollama_config": {
+        "model": "mistral",
+        "keep_alive": "5m",
+        "stream": false
+    },
+    "prompt_template2": "Fix all typos and casing and punctuation in this text, but preserve all new line characters:\n\n$text\n\nReturn only the corrected text, don't include a preamble.",
+    "prompt_template": [
+        "Fix all typos and casing and punctuation in this text, but preserve all new line characters:",
+        "",
+        "$text",
+        "",
+        "Return only the corrected text, don't include a preamble."
+    ]
+}
